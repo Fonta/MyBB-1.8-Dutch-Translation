@@ -1,5 +1,5 @@
 <?php
-/*
+/**
  * MyBB 1.8 Dutch Language Pack
  * Zie dutch.php voor versieinformatie
  *

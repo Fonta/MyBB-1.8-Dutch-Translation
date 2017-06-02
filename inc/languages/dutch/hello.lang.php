@@ -14,12 +14,14 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Gianni Fontanini (Fonta)
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 1801
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 22 Jan 2016 11:58:16 +0000
+// Last edited date : Thu, 03 Dec 2015 05:29:48 +0000
 // --------------------------------------------------------------------------------
 
-$l['s1_name'] = 'Gebruikers beheer';
-$l['s1_desc'] = 'Basis instructies voor het beheren van een forum account.';
-$l['s2_name'] = 'Posten';
-$l['s2_desc'] = 'Posten, antwoorden, en basis gebruik van het forum.';
+$l['hello'] = 'Hallo Wereld!';
+$l['hello_add'] = 'Toevoegen';
+$l['hello_add_message'] = 'Bericht Toevoegen';
+$l['hello_empty'] = 'Geen berichten gevonden.';
+$l['hello_message_empty'] = 'Bericht mag niet leeg zijn.';
+$l['hello_done'] = 'Bericht succesvol toegevoegd.';

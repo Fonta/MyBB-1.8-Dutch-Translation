@@ -2,26 +2,25 @@
 /**
  * MyBB 1.8 Dutch Language Pack
  * Voor MyBB 1.8
- * Laatst aangepast op 22 april 2013 (update mybb 1.6.10).
+ * Laatst aangepast op 2 Juni 2017 (update mybb 1.8.12)
  *
- * Nederlands taalpakket voor MyBB 1.8
- * Nederlandse vertaling door Fonta
+ * Nederlands taalpakket voor MyBulletinBoard
  *
  * Ga voor vragen, opmerkingen en suggesties naar
- * http://community.mybb.com/thread-162170.html
+ * https://github.com/f0nt4/TSLink
  */
 
 // The friendly name of the language
-$langinfo['name'] = 'Nederlands';
+$langinfo['name'] = "Nederlands";
 
 // The author of the language
-$langinfo['author'] = 'Fonta';
+$langinfo['author'] = "Fonta";
 
 // The language authors website
-$langinfo['website'] = 'https://www.bug-community.com';
+$langinfo['website'] = "https://www.bug-community.com";
 
 // Compatible version of MyBB
-$langinfo['version'] = '1806';
+$langinfo['version'] = "18*";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 0;
@@ -30,7 +29,8 @@ $langinfo['admin'] = 0;
 $langinfo['rtl'] = 0;
 
 // Sets the lang in the <html> on all pages
-$langinfo['htmllang'] = 'nl';
+$langinfo['htmllang'] = "nl";
 
 // Sets the character set, blank uses the default.
-$langinfo['charset'] = 'UTF-8';
+$langinfo['charset'] = "UTF-8";
+?>

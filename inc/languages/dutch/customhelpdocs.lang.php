@@ -1,10 +1,10 @@
 <?php
-/*
+/**
  * MyBB 1.8 Dutch Language Pack
  * Zie dutch.php voor versieinformatie
  *
  */
-
+ 
 /*
  * Indeling voor vertalen van aangepaste help-onderwerpen
  *
