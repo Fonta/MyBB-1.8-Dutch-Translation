@@ -14,9 +14,9 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 02 Jun 2017 09:02:30 +0000
+// Last edited date : Mon, 27 Jul 2020 10:14:43 +0000
 // --------------------------------------------------------------------------------
 
 $l['userdata_missing_username'] = 'U hebt geen gebruikersnaam ingevoerd. Voer een gebruikersnaam in.';
@@ -57,3 +57,4 @@ $l['userdata_too_many_sig_images2'] = 'Het <strong>maximale</strong> aantal afbe
 $l['userdata_sig_too_long'] = 'U kunt uw handtekening niet bijwerken omdat het te lang is. Het maximale aantal karakters voor handtekeningen is {1}';
 $l['userdata_sig_remove_chars_plural'] = 'Verwijder {1} karakters en probeer opnieuw.';
 $l['userdata_sig_remove_chars_singular'] = 'Verwijder 1 karakter en probeer opnieuw.';
+$l['userdata_away_too_long'] = 'De reden van afwezigheid is te lang. Een maximum van 200 karakters is toegestaan. Verwijder {1} karakters uit dit veld.';

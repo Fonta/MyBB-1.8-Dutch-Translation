@@ -14,9 +14,9 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 02 Jun 2017 09:03:10 +0000
+// Last edited date : Mon, 27 Jul 2020 10:18:11 +0000
 // --------------------------------------------------------------------------------
 
 $l['post_thread'] = 'Nieuw topic plaatsen';
@@ -111,3 +111,5 @@ $l['prefix_any'] = 'Prefix: Alle Prefixen';
 $l['prefix_none'] = 'Prefix: Geen Prefix';
 $l['nopermission'] = 'Sorry, maar u heeft geen rechten om topics in dit forum te bekijken.';
 $l['deleted_thread'] = 'Verwijder topic';
+$l['closed_thread'] = 'Gesloten topic';
+$l['icon_close'] = 'Gesloten topic';

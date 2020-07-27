@@ -14,9 +14,9 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 02 Jun 2017 09:16:44 +0000
+// Last edited date : Mon, 27 Jul 2020 10:45:21 +0000
 // --------------------------------------------------------------------------------
 
 $l['nav_width'] = '210';
@@ -133,8 +133,6 @@ $l['profile_optional'] = 'Optionele informatie';
 $l['website_url'] = 'Website:';
 $l['birthdate'] = 'Geboortedatum:';
 $l['icq_number'] = 'ICQ-nummer:';
-$l['aim_screenname'] = 'AIM-schermnaam:';
-$l['yahoo_id'] = 'Yahoo! ID:';
 $l['skype_id'] = 'Skype ID:';
 $l['google_id'] = 'Google Talk ID:';
 $l['away_notice'] = 'Deze optie stelt je in staat, in te stellen of je aanwezig bent of niet.';
@@ -323,5 +321,9 @@ $l['you_cannot_moderate_threads'] = 'U heeft onvoldoende autorisaties om topics 
 $l['you_cannot_moderate_posts'] = 'U heeft onvoldoende autorisaties om berichten te modereren.';
 $l['you_cannot_moderate_attachments'] = 'U heeft onvoldoende autorisaties om bijlagen te modereren.';
 $l['you_cannot_use_mod_queue'] = 'U heeft onvoldoende autorisaties om de mod queue te gebruiken.';
-$l['search_user'] = '';
 $l['search_ip_sfs'] = 'Zoek dit IP op Stop Forum Spam';
+$l['redirect_allreportsmarked'] = 'Alle gerapporteerde content is als gelezen gemarkeerd.';
+$l['page_selected'] = 'Alle <strong>{1}</strong> ongelezen reports op deze pagina zijn geselecteerd.';
+$l['all_selected'] = 'Alle <strong>{1}</strong> ongelezen reports zijn geselecteerd.';
+$l['select_all'] = 'Selecteer alle <strong>{1}</strong> ongelezen reports.';
+$l['clear_selection'] = 'Herstel selectie.';

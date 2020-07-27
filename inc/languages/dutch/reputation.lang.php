@@ -2,8 +2,8 @@
 /**
  * MyBB Copyright 2014 MyBB Group, All Rights Reserved
  *
- * Website: http://www.mybb.com
- * License: http://www.mybb.com/about/license
+ * Website: https://mybb.com
+ * License: https://mybb.com/about/license
  *
  */
 
@@ -14,9 +14,9 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Tue, 02 Feb 2016 00:45:22 +0000
+// Last edited date : Mon, 27 Jul 2020 10:53:07 +0000
 // --------------------------------------------------------------------------------
 
 $l['nav_reputation'] = 'Overzicht van ontvangen reputaties';
@@ -32,7 +32,7 @@ $l['add_invalidpower'] = 'U hebt geen geldige reputatie gekozen.';
 $l['add_maxperday'] = 'U hebt het maximale aantal reputaties dat u per dag kunt toekennen, bereikt.';
 $l['add_maxperuser'] = 'U hebt het maximale aantal reputaties dat u per dag aan deze gebruiker kunt toekennen, bereikt.';
 $l['add_maxperthread'] = 'U hebt het maximale aantal reputaties dat u per dag per topic kunt toekennen, bereikt.';
-$l['add_no_comment'] = 'U moet een geldige reden van minstens tien tekens opgeven.';
+$l['add_no_comment'] = 'U moet een geldige reden van minstens {1} tekens opgeven.';
 $l['add_toolong'] = 'U moet een geldige reden van hoogstens {1} tekens opgeven.';
 $l['add_negative_disabled'] = 'De beheerder heeft negatieve reputaties uitgeschakeld.';
 $l['add_neutral_disabled'] = 'De beheerder heeft neutrale reputaties uitgeschakeld.';
@@ -85,7 +85,6 @@ $l['show_negative'] = 'Alleen negatieve reputaties weergeven';
 $l['sort_updated'] = 'gesorteerd op tijdstip laatst bijgewerkt';
 $l['sort_username'] = 'gesorteerd op gebruikersnaam';
 $l['last_updated'] = 'Laatst bijgewerkt op {1}';
-$l['postrep_post'] = '';
 $l['postrep_given'] = 'Reputatie gegeven voor <a href="{1}">{2}</a> zijn bericht {3}<br />';
 $l['no_reputation_votes'] = 'Er zijn momenteel geen reputaties die voldoen aan de hieronder opgegeven criteria.';
 $l['delete_reputation_confirm'] = 'Wilt u deze reputatie verwijderen?';

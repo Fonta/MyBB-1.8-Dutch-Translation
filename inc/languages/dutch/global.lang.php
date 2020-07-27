@@ -14,9 +14,9 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 02 Jun 2017 09:20:49 +0000
+// Last edited date : Mon, 27 Jul 2020 12:00:49 +0000
 // --------------------------------------------------------------------------------
 
 $l['redirect_width'] = '50%';
@@ -58,7 +58,6 @@ $l['forumbit_moderated_by'] = 'Dit forum wordt gemodereerd door:';
 $l['new_posts'] = 'Forum bevat nieuwe berichten';
 $l['no_new_posts'] = 'Forum bevat geen nieuwe berichten';
 $l['click_mark_read'] = 'Klik hier om dit forum als gelezen te markeren';
-$l['forum_locked'] = 'Forum is gesloten';
 $l['forum_redirect'] = 'Redirect Forum';
 $l['lastpost_never'] = 'Nooit';
 $l['viewing_one'] = ' (wordt bekeken door 1 gebruiker)';
@@ -132,8 +131,8 @@ $l['no_subscribe'] = 'Niet abonneren op dit topic.';
 $l['no_subscribe_notification'] = 'Abonneren, maar geen notificaties.';
 $l['instant_email_subscribe'] = 'Abonneren, notificaties per e-mail.';
 $l['instant_pm_subscribe'] = 'Abonneren, notificaties per PB.';
-$l['today'] = '<span title="{1}">Vandaag</span>';
-$l['yesterday'] = '<span title="{1}">Gisteren</span>';
+$l['today'] = 'Vandaag';
+$l['yesterday'] = 'Gisteren';
 $l['error'] = 'Foutmelding';
 $l['multipage_pages'] = 'Pagina\'s ({1}):';
 $l['multipage_last'] = 'Laatste';
@@ -203,7 +202,6 @@ $l['editor_insertquote'] = 'Citaat invoegen';
 $l['editor_invalidyoutube'] = 'Invalide YouTube video';
 $l['editor_dailymotion'] = 'Dailymotion';
 $l['editor_metacafe'] = 'MetaCafe';
-$l['editor_veoh'] = 'Veoh';
 $l['editor_vimeo'] = 'Vimeo';
 $l['editor_youtube'] = 'Youtube';
 $l['editor_facebook'] = 'Facebook';
@@ -283,7 +281,6 @@ $l['postbit_button_forward'] = 'Doorsturen';
 $l['postbit_button_delete_pm'] = 'Verwijderen';
 $l['postbit_button_purgespammer'] = 'Verwijder Spammer';
 $l['forumjump'] = 'Ga naar locatie:';
-$l['forumjump_select'] = '';
 $l['forumjump_pms'] = 'Persoonlijke berichten';
 $l['forumjump_usercp'] = 'Gebruikersconfiguratiescherm';
 $l['forumjump_wol'] = 'Wie is er online';
@@ -347,7 +344,7 @@ $l['banned_lifted_never'] = 'Nooit (u bent permanent verbannen).';
 $l['banned_email_warning'] = 'je gebruikt momenteel een email dat niet gebruikt mag worden op dit forum. Pas dit aan voordat je doorgaat.';
 $l['powered_by'] = 'Aangedreven door';
 $l['copyright'] = 'Copyright';
-$l['attach_quota'] = 'U gebruikt momenteel <strong>{1}</strong> van de aan u toegewezen opslagruimte voor bijlagen ({2}).';
+$l['attach_quota'] = 'De aan u toegewezen opslagruimte voor bijlagen is {1}.';
 $l['view_attachments'] = '[Uw bijlagen weergeven]';
 $l['unlimited'] = 'Onbeperkt';
 $l['click_hold_edit'] = '(Klik en houd muisknop ingedrukt om te bewerken)';
@@ -392,12 +389,9 @@ $l['refresh'] = 'Vernieuwen';
 $l['select_language'] = 'Snelle taal selectie';
 $l['select_theme'] = 'Snelle thema selectie';
 $l['invalid_post_code'] = 'De authorisatiecodes komen niet overeen. Gebruikt u deze functie op de juiste manier? Ga terug en probeer het opnieuw.';
-$l['invalid_captcha'] = 'Gelieve de afbeelding verificatie code in te vullen. U moet de code exact hetzelfde schrijven zoals in de afbeelding.';
 $l['invalid_captcha_verify'] = 'De afbeelding verificatie code dat u heeft ingegeven is niet correct. Gelieve de code exact hetzelfde te schrijven zoals in de afbeelding.';
-$l['invalid_captcha_transmit'] = 'Er is een fout opgetreden bij de afbeelding verificatie. Probeer opnieuw.';
 $l['captcha_fetch_failure'] = 'Er is een fout opgetreden bij het ophalen van de nieuwe captcha.';
 $l['question_fetch_failure'] = 'Er is een fout opgetreden bij het ophalen van de nieuwe vraag.';
-$l['invalid_ayah_result'] = '';
 $l['timezone_gmt_minus_1200'] = '(GMT -12:00) Internationale westelijke datumgrens';
 $l['timezone_gmt_minus_1100'] = '(GMT -11:00) Midway-eilanden, Samoa';
 $l['timezone_gmt_minus_1000'] = '(GMT -10:00) Hawaii';
@@ -516,13 +510,13 @@ $l['select2_searching'] = 'Zoeken…';
 $l['stopforumspam_error_decoding'] = 'Error decoding data from StopForumSpam.com.';
 $l['stopforumspam_error_retrieving'] = 'Error retrieving data from StopForumSpam.com.';
 $l['postbit_attachment_filename'] = 'Bestandsnaam:';
-$l['invalid_nocaptcha'] = 'Please solve the reCAPTCHA to verify that you\'re not a robot.';
+$l['invalid_nocaptcha'] = 'Log alstublieft de reCAPTCHA op om te verfiëren dat u geen robot bent.';
 $l['image_verification'] = 'Image Verification';
 $l['human_verification'] = 'Human Verification';
 $l['verification_note'] = 'Please enter the text contained within the image into the text box below it. This process is used to prevent automated spam bots.';
-$l['verification_note_nocaptcha'] = 'Please tick the checkbox that you see below. This process is used to prevent automated spam bots.';
+$l['verification_note_nocaptcha'] = 'Kruis onderstaande checkbox aan. Dit proces wordt gebruikt om automatisch spam bots tegen te gaan.';
 $l['verification_subnote'] = '(case insensitive)';
-$l['invalid_nocaptcha_transmit'] = 'An error occurred with the human verification. Please try again.';
+$l['invalid_nocaptcha_transmit'] = 'Er is een fout opgetreden bij het verifiëren of u geen robot bent met reCAPTCHA. Probeert u het alstublieft opnieuw';
 $l['awaiting_message_link'] = ' <a href="{1}/{2}/index.php?module=user-users&amp;action=search&amp;results=1&amp;conditions=a%3A1%3A%7Bs%3A9%3A%22usergroup%22%3Bs%3A1%3A%225%22%3B%7D">Go to the ACP</a>.';
 $l['sfs_error_username'] = 'gebruikersnaam';
 $l['sfs_error_ip'] = 'IP';
@@ -540,3 +534,27 @@ $l['remote_avatar_disabled_default_avatar'] = 'U gebruikt momenteel een remote a
 $l['search_user'] = 'Zoek naar een gebruiker';
 $l['timezone_gmt_850'] = '(GMT +8:30) Pyongyang';
 $l['timezone_gmt_875'] = '(GMT +8:45) Eucla';
+$l['bottomlinks_forumteam'] = 'Forum Team';
+$l['forum_closed'] = 'Forum is gesloten';
+$l['attachment_too_many_files'] = 'Je kan maximaal {1} attachments tegelijk uploaden.';
+$l['attachment_too_big_upload'] = 'Je kan maximaal {1} bytes tegelijk uploaden.';
+$l['today_rel'] = '<span title="{1}">Vandaag</span>';
+$l['yesterday_rel'] = '<span title="{1}">Gisteren</span>';
+$l['editor_mixer'] = 'Mixer';
+$l['postbit_post_under_moderation'] = 'De door jou gemaakte post wacht op goedkeuring van een moderator en is wordt pas zichtbaar als deze is goedgekeurd.';
+$l['mod_notice'] = 'Wachtende op moderatie: {1}.';
+$l['unapproved_thread'] = '1 ongekeurd topic';
+$l['unapproved_threads'] = '{1} ongekeurde topics';
+$l['unapproved_post'] = '1 ongekeurde post';
+$l['unapproved_posts'] = '{1} ongekeurde posts';
+$l['unapproved_attachment'] = '1 ongekeurd attachment';
+$l['unapproved_attachments'] = '{1} ongekeurde attachments';
+$l['attach_usage'] = 'U gebruikt momenteel <strong>{1}</strong>.';
+$l['folder_unread'] = 'Ongelezen';
+$l['error_empty_post_input'] = 'Er is een fout opgetreden door je post data die leeg was. Dit kan komen door een browser refresh of directe toegang tot deze pagina. Onze suggestie is om op vorige te klikken en opnieuw te beginnen.';
+$l['stopforumspam_invalid_email'] = 'Ongeldig e-mail adres tijden controleren bij de StopForumSpam.com API';
+$l['stopforumspam_invalid_ip_address'] = 'Ongeldig IP adres tijden controleren bij de StopForumSpam.com API';
+$l['ratings_update_error'] = 'Er was een fout bij het bijwerken van de rating.';
+$l['invalid_hcaptcha'] = 'Log alstublieft de hCaptacha op om te verfiëren dat u geen robot bent.';
+$l['verification_note_hcaptcha'] = 'Kruis onderstaande checkbox aan. Dit proces wordt gebruikt om automatisch spam bots tegen te gaan.';
+$l['invalid_hcaptcha_transmit'] = 'Er is een fout opgetreden bij het verifiëren of u geen robot bent met hCaptcha. Probeert u het alstublieft opnieuw';

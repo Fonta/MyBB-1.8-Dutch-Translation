@@ -14,9 +14,9 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 02 Jun 2017 09:17:08 +0000
+// Last edited date : Mon, 27 Jul 2020 12:06:58 +0000
 // --------------------------------------------------------------------------------
 
 $l['nav_deletethread'] = 'Topic definitief verwijderen';
@@ -148,7 +148,6 @@ $l['stick_unstick_thread'] = 'Topic (on)belangrijk maken';
 $l['save_delayed_moderation'] = 'Uitgestelde moderatie opslaan';
 $l['custom'] = 'aangepast';
 $l['delayed_mod_queue'] = 'Wachtrij voor uitgestelde moderatie';
-$l['days_to_perform_action'] = 'Dagen tot uitvoeren handeling';
 $l['leave_redirect'] = 'Koppeling behouden:';
 $l['multiple_threads'] = 'Meerdere topics';
 $l['actions'] = 'Handelingen';
@@ -227,3 +226,7 @@ $l['redirect_delayed_moderation_forum'] = 'De moderatiehandeling is opgeslagen e
 $l['redirect_delayed_moderation_search'] = 'De moderatiehandeling is opgeslagen en {1} dagen uitgesteld.<br />U zult nu worden teruggebracht naar de zoekfunctie.';
 $l['redirect_delayed_moderation_cancelled'] = 'De moderatiehandeling is geannuleerd.<br />U zult nu worden teruggebracht naar de pagina met uitgestelde moderaties.';
 $l['time'] = 'Tijd:';
+$l['error'] = 'Fout!';
+$l['error_movetononmodforum'] = 'Je kan dit topic niet verplaatsen naar een forum waar je geen moderator bent of waar je geen rechten hebt om deze weer te geven.';
+$l['error_thread_deleted'] = 'Het topic is voorlopig verwijderd. Om deze actie uit te voeren moet je eerst het topic herstellen.';
+$l['time_to_perform_action'] = 'Tijdstip om de actie uit te voeren';

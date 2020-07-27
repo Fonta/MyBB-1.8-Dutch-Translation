@@ -2,12 +2,12 @@
 /**
  * MyBB 1.8 Dutch Language Pack
  * Voor MyBB 1.8
- * Laatst aangepast op 2 Juni 2017 (update mybb 1.8.12)
+ * Laatst aangepast op 27 Juli 2020 (update mybb 1.8.23)
  *
  * Nederlands taalpakket voor MyBulletinBoard
  *
  * Ga voor vragen, opmerkingen en suggesties naar
- * https://github.com/f0nt4/TSLink
+ * https://github.com/Fonta/MyBB-1.8-Dutch-Translation
  */
 
 // The friendly name of the language
@@ -17,7 +17,7 @@ $langinfo['name'] = "Nederlands";
 $langinfo['author'] = "Fonta";
 
 // The language authors website
-$langinfo['website'] = "https://www.bug-community.com";
+$langinfo['website'] = "https://www.fonta.nl";
 
 // Compatible version of MyBB
 $langinfo['version'] = "18*";

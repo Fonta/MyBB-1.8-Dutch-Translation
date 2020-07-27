@@ -14,31 +14,21 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 02 Jun 2017 09:10:00 +0000
+// Last edited date : Mon, 27 Jul 2020 10:42:03 +0000
 // --------------------------------------------------------------------------------
 
 $l['nav_helpdocs'] = 'Help-onderwerpen';
 $l['nav_smilies'] = 'Lijst met emoticons';
 $l['nav_syndication'] = 'Syndicatie laatste topics (RSS)';
-$l['aol_im'] = 'AOL';
 $l['skype'] = 'Skype';
-$l['yahoo_im'] = 'Yahoo IM';
 $l['skype_center'] = 'Skype Center';
-$l['skype_status'] = '';
 $l['chat_on_skype'] = 'Chat with {1} on Skype';
 $l['call_on_skype'] = 'Call {1} on Skype';
-$l['yahoo_center'] = 'Yahoo!';
-$l['send_y_message'] = '';
-$l['view_y_profile'] = '';
-$l['aim_center'] = 'AOL';
-$l['download_aim'] = 'AOL Instant Messager downloaden';
-$l['aim_remote'] = 'AIM Remote';
 $l['send_me_instant'] = 'Mij een instant messaging-bericht sturen';
 $l['add_me_buddy_list'] = 'Mij aan uw vriendenlijst toevoegen';
 $l['add_remote_to_page'] = 'Remote aan uw pagina toevoegen';
-$l['download_aol_im'] = 'AOL Instant Messager downloaden';
 $l['buddy_list'] = 'Buddylijst';
 $l['online'] = 'Online';
 $l['online_none'] = '<em>Je hebt geen buddies die online zijn</em>';
@@ -93,7 +83,6 @@ $l['redirect_forumpasscleared'] = 'Het wachtwoord dat voor dit forum was opgesla
 $l['redirect_cookiescleared'] = 'Alle cookies zijn gewist.';
 $l['error_invalidimtype'] = 'Deze gebruiker heeft geen account voor dit type instant messaging opgegeven.';
 $l['error_invalidhelpdoc'] = 'Het door u opgegeven help-onderwerp lijkt niet te bestaan.';
-$l['error_invalidkey'] = '';
 $l['dst_settings_updated'] = 'Uw zomertijdinstellingen zijn automatisch aangepast.<br /><br />U zult nu worden teruggebracht naar de beginpagina.';
 $l['no_smilies'] = 'Er zijn momenteel geen emoticons beschikbaar.';
 $l['error_invalidforum'] = 'Foutief forum';
@@ -101,3 +90,4 @@ $l['error_invalidsearch'] = 'Een foutieve zoekopdracht was gespecificeerd. Ga al
 $l['error_no_search_support'] = 'Deze database engine ondersteund geen zoek opdrachten.';
 $l['error_searchflooding'] = 'Excuses, maar u kunt slechts een maal per {1} seconden zoeken. Wacht alstublieft nog {2} seconden voordat u het opnieuw probeert.';
 $l['error_searchflooding_1'] = 'Excuses, maar u kunt slechts een maal per {1} seconden zoeken. Wacht alstublieft nog 1 seconde voordat u het opnieuw probeert.';
+$l['syndication_version_json1'] = 'JSON Feed 1';

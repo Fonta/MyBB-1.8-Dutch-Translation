@@ -2,8 +2,8 @@
 /**
  * MyBB Copyright 2014 MyBB Group, All Rights Reserved
  *
- * Website: http://www.mybb.com
- * License: http://www.mybb.com/about/license
+ * Website: https://mybb.com
+ * License: https://mybb.com/about/license
  *
  */
 
@@ -14,9 +14,9 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 22 Jan 2016 12:27:31 +0000
+// Last edited date : Mon, 27 Jul 2020 10:56:36 +0000
 // --------------------------------------------------------------------------------
 
 $l['delete_poll'] = 'Peiling verwijderen';
@@ -107,9 +107,6 @@ $l['or'] = 'of';
 $l['quickreply_multiquote_deselect'] = 'de selectie opheffen';
 $l['search_thread'] = 'Topic doorzoeken';
 $l['enter_keywords'] = 'Voer zoektermen in';
-$l['image_verification'] = '';
-$l['verification_note'] = '';
-$l['verification_subnote'] = '';
 $l['view_thread_notes'] = 'Topic Notities';
 $l['view_all_notes'] = 'Bekijk Alle Notities';
 $l['save_changes'] = 'Wijzigingen Opslaan';
@@ -121,3 +118,5 @@ $l['quick_delete_success'] = 'Het bericht is succesvol verwijderd.';
 $l['quick_delete_thread_success'] = 'Het topic is succesvol verwijderd.';
 $l['quick_restore_error'] = 'Er is een fout opgetreden tijdens het herstellen van je bericht:';
 $l['quick_restore_success'] = 'Het bericht is succesvol hersteld.';
+$l['no_voting_permission'] = 'U heeft geen rechten om te stemmen in deze poll.';
+$l['post_deleted_error'] = 'Je kan deze actie niet uitvoeren op een verwijderd bericht.';

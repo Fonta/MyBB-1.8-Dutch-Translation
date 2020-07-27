@@ -14,9 +14,9 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 02 Jun 2017 09:07:10 +0000
+// Last edited date : Mon, 27 Jul 2020 10:25:07 +0000
 // --------------------------------------------------------------------------------
 
 $l['report_reason'] = 'Rapporteer reden:';
@@ -33,7 +33,7 @@ $l['report_reason_wrong'] = 'Verkeerde Forum';
 $l['report_reason_other'] = 'Anders';
 $l['success_report_voted'] = 'Bedankt voor het rapporteren van deze content.<br />Een moderator zal hier spoedig naar kijken.';
 $l['error_report_length'] = 'Geef alstublief een gedetaileerde reden waarom u deze content rapporteerd.';
-$l['error_invalid_report'] = 'Deze content bestaat niet of kan niet worden gerapporteerd.';
+$l['error_invalid_report'] = 'Deze {1} bestaat niet of kan niet worden gerapporteerd.';
 $l['error_report_duplicate'] = 'Deze content is reeds door een andere gebruiker gerapporteerd.<br />U kunt de content hieronder ook rapporteren.';
 $l['report_reason_other_description'] = 'Geef alstublieft meer informatie waarom u deze content wilt rapporteren.';
 $l['error_invalid_report_reason'] = 'De geselecteerde reden is foutief.';

@@ -14,9 +14,9 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 02 Jun 2017 09:16:14 +0000
+// Last edited date : Mon, 27 Jul 2020 12:06:09 +0000
 // --------------------------------------------------------------------------------
 
 $l['click_no_wait'] = 'Klik hier als u niet langer wilt wachten.';
@@ -27,7 +27,7 @@ $l['error_invalidpworusername'] = 'U hebt een ongeldige gebruikersnaam of wachtw
 $l['error_invalidpworusername1'] = 'U hebt een ongeldige email/wachtwoord combinatie opgegeven. <br /><br />Als u uw wachtwoord vergeten bent, dan kunt u <a href="member.php?action=lostpw">een nieuw wachtwoord aanvragen</a>.';
 $l['error_invalidpworusername2'] = 'U hebt een ongeldige gebruikersnaam/wachtwoord combinatie opgegeven. <br /><br />Als u uw wachtwoord vergeten bent, dan kunt u <a href="member.php?action=lostpw">een nieuw wachtwoord aanvragen</a>.';
 $l['error_incompletefields'] = 'Het lijkt erop dat u &eacute;&eacute;n of meerdere verplichte velden niet hebt ingevuld. Ga terug en doe dit alsnog.';
-$l['error_alreadyuploaded'] = 'Er is al een bijlage aan dit bericht toegevoegd met dezelfde naam. U kunt een ander bestand kiezen om toe te voegen of de huidige bijlage bijwerken.';
+$l['error_alreadyuploaded'] = 'Er is al een bijlage aan dit bericht toegevoegd met dezelfde naam {1}. U kunt een ander bestand kiezen om toe te voegen of de huidige bijlage bijwerken.';
 $l['error_alreadyuploaded_perm'] = 'This post already contains an attachment with the same name. Please either remove the existing file or rename the file and upload it again.';
 $l['error_nomessage'] = 'U hebt geen geldig bericht ingevoerd. Ga terug en doe dit alsnog.';
 $l['error_invalidemail'] = 'U hebt geen geldig e-mailadres opgegeven.';
@@ -41,8 +41,8 @@ $l['error_invalidattachment'] = 'De opgegeven bijlage bestaat niet.';
 $l['error_invalidforum'] = 'U hebt een ongeldig forum geselecteerd.';
 $l['error_closedinvalidforum'] = 'U kunt geen berichten plaatsen in dit forum omdat het is gesloten of een categorie is.';
 $l['error_attachtype'] = 'Het bestandsformaat dat u wilde bijvoegen is niet toegestaan. Verwijder de bijlage of kies een ander bestandstype.';
-$l['error_attachsize'] = 'Het bestand dat u wilde bijvoegen is te groot. De maximale bestandsgrootte voor dat bestandsformaat is {1} kilobytes.';
-$l['error_uploadempty'] = 'Het bestand dat u wilde bijvoegen is leeg.';
+$l['error_attachsize'] = 'Het bestand {1} dat u wilde bijvoegen is te groot. De maximale bestandsgrootte voor dat bestandsformaat is {1} kilobytes.';
+$l['error_uploadempty'] = 'Het bestand {1} dat u wilde bijvoegen is leeg.';
 $l['error_uploadsize'] = 'De bestandsgrootte van het ge&uuml;ploade bestand is te groot.';
 $l['error_uploadfailed'] = 'Het bestand kon niet worden ge&uuml;pload. Kies een geldig bestand en probeer het opnieuw';
 $l['error_uploadfailed_detail'] = 'Details:';
@@ -163,7 +163,7 @@ $l['email_reportpost'] = 'Op {2} heeft {1} het volgende bericht gerapporteerd:
 {4}/{5}
 
 De reden die deze gebruiker opgaf voor het rapporteren van dit bericht:
-{7}
+{6}
 
 Dit e-mailbericht is verstuurd naar alle moderators van dit forum, of, als er geen moderators zijn, naar alle supermoderators en beheerders.
 
@@ -248,7 +248,7 @@ Personeel {4}
 Afmelden:
 
 als u geen verdere meldingen meer wilt ontvangen van nieuwe topics in dit forum, ga dan met uw browser naar het volgende adres:
-{7}/usercp2.php?action=removesubscription&type=forum&fid={9}&my_post_key={10}
+{7}/usercp.php?action=removesubscription&type=forum&fid={9}
 
 ------------------------------------------';
 $l['email_activateaccount'] = '{1},
@@ -320,7 +320,7 @@ Personeel {3}
 Afmelden:
 
 als u geen verdere meldingen meer wilt ontvangen van nieuwe reacties in dit topic, ga dan met uw browser naar het volgende adres:
-{6}/usercp2.php?action=removesubscription&tid={8}&my_post_key={9}
+{6}/usercp.php?action=removesubscription&tid={8}
 
 ------------------------------------------';
 $l['email_reachedpmquota'] = '{1},
@@ -457,7 +457,7 @@ There may also be other replies to this thread but you will not receive anymore 
 Unsubscription Information:
 
 If you would not like to receive any more notifications of replies to this thread, visit the following URL in your browser:
-[url]{5}/usercp2.php?action=removesubscription&tid={7}&my_post_key={8}[/url]
+[url]{5}/usercp.php?action=removesubscription&tid={7}[/url]
 
 ------------------------------------------';
 $l['emailsubject_reportprofile'] = 'Gerapporteerde gebruiker op {1}';
@@ -491,3 +491,4 @@ $l['email_broken_task'] = 'Your copy of MyBB running on {1} ({2}) has experience
 The task file for {3} is missing.
 
 This task has been disabled until issue is resolved.';
+$l['error_attach_filename_length'] = 'De bestandsnaam \'{1}\' is langer dan de toegestane lengte van {2} karakters. Upload het bestand opnieuw met een kortere naam.';

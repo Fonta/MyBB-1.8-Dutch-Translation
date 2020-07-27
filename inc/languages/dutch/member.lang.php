@@ -14,9 +14,9 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 02 Jun 2017 09:03:59 +0000
+// Last edited date : Mon, 27 Jul 2020 12:02:44 +0000
 // --------------------------------------------------------------------------------
 
 $l['nav_register'] = 'Registreren';
@@ -69,8 +69,6 @@ $l['homepage'] = 'Website:';
 $l['pm'] = 'Persoonlijk bericht:';
 $l['send_pm'] = '{1} een persoonlijk bericht sturen';
 $l['icq_number'] = 'ICQ-nummer:';
-$l['aim_screenname'] = 'AIM-schermnaam:';
-$l['yahoo_id'] = 'Yahoo ID:';
 $l['skype_id'] = 'Skype ID:';
 $l['google_id'] = 'Google Talk ID:';
 $l['avatar'] = 'Avatar:';
@@ -150,7 +148,6 @@ $l['submit_registration'] = 'Registratie voltooien';
 $l['confirm_password'] = 'Wachtwoord bevestigen:';
 $l['referrer'] = 'Doorverwijzing';
 $l['referrer_desc'] = 'als u door een ander lid naar dit forum bent verwezen, kunt u zijn/haar naam hier invullen. Laat dit veld anders leeg.';
-$l['search_user'] = '';
 $l['resend_activation'] = 'Activatiecode opnieuw versturen';
 $l['request_activation'] = 'Activatiecode opnieuw versturen';
 $l['ppp'] = 'Berichten per pagina:';
@@ -159,9 +156,6 @@ $l['tpp'] = 'Topics per pagina:';
 $l['tpp_desc'] = 'Hier kunt u het aantal topics kiezen dat u per pagina in de lijst met topics wilt weergeven.';
 $l['reset_password'] = 'Wachtwoord herstellen';
 $l['send_password'] = 'Nieuw wachtwoord versturen';
-$l['image_verification'] = '';
-$l['verification_note'] = '';
-$l['verification_subnote'] = '';
 $l['registration_errors'] = 'Uw registratie kan niet worden voltooid vanwege de volgende fouten:';
 $l['timeonline'] = 'Tijd online besteed:';
 $l['timeonline_hidden'] = '(Verborgen)';
@@ -256,3 +250,15 @@ $l['ban_length'] = 'ban lengte';
 $l['ban_remaining'] = 'overgbeleven';
 $l['registration_ip'] = 'Registratie IP:';
 $l['last_known_ip'] = 'Laatst bekende IP:';
+$l['nav_referrals'] = 'Gebruiker Doorverwezen door {1}';
+$l['referrals'] = 'Doorverwijzingen';
+$l['referral_date'] = 'Doorverwijs datum:';
+$l['referrals_no_user_specified'] = 'Geen gebruiker gespecificeerd';
+$l['member_no_referrals'] = 'Geen doorverwijzingen voor deze gebruiker.';
+$l['coppa_desc_for_deny'] = 'Voordat u zich kunt registreren, moet u uw leeftijd opgeven in verband met <a href="http://coppa.org/" title="Children\'s Online Privacy Protection Act" target="_blank" rel="noopener">COPPA</a>. Voer hieronder uw geboortedatum in.';
+$l['edit_ban_in_mcp'] = 'Bewerk ban in Mod CP';
+$l['lift_ban_in_mcp'] = 'Verwijder ban in Mod CP';
+$l['js_validator_bad_password_security'] = 'Het door u opgegeven wachtwoord lijkt op uw gebruikersnaam of wachtwoord. Gebruik alstublieft een sterker wachtwoord.';
+$l['referrals_invalid_user'] = 'Ongeldige gebruiker gespecificeerd.';
+$l['admin_lift_ban_in_acp'] = 'Ban opheffen in het Admin CP';
+$l['admin_edit_ban_in_acp'] = 'Ban bewerken in het Admin CP';

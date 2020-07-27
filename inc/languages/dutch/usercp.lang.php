@@ -14,9 +14,9 @@
 // Friendly name of the language : Nederlands
 // Author of the language pack : Fonta
 // Language pack translators website : https://www.bug-community.com
-// Compatible version of MyBB : 1806
+// Compatible version of MyBB : 18*
 // Last edited in MyBB Editor by : Fonta
-// Last edited date : Fri, 02 Jun 2017 09:20:19 +0000
+// Last edited date : Mon, 27 Jul 2020 12:16:36 +0000
 // --------------------------------------------------------------------------------
 
 $l['nav_usercp'] = 'Gebruikersconfiguratiescherm';
@@ -219,8 +219,6 @@ $l['profile_optional'] = 'Optionele velden';
 $l['website_url'] = 'Adres website:';
 $l['birthdate'] = 'Verjaardag:';
 $l['contact_field_icq'] = 'ICQ Number:';
-$l['contact_field_aim'] = 'AIM Screen Name:';
-$l['contact_field_yahoo'] = 'Yahoo ID:';
 $l['contact_field_skype'] = 'Skype ID:';
 $l['contact_field_google'] = 'Google Talk ID:';
 $l['additional_information'] = 'Extra informatie';
@@ -248,11 +246,6 @@ $l['delete_drafts'] = 'Geselecteerde concepten verwijderen';
 $l['draft_options'] = 'Concept opties';
 $l['selected_drafts_deleted'] = 'De geselecteerde concepten zijn verwijderd.<br />U zult nu worden teruggebracht naar de lijst met concepten.';
 $l['no_drafts_selected'] = 'U hebt geen concepten geselecteerd om te verwijderen.';
-$l['too_many_sig_images'] = '';
-$l['too_many_sig_images2'] = '';
-$l['sig_too_long'] = '';
-$l['sig_remove_chars_plural'] = '';
-$l['sig_remove_chars_singular'] = '';
 $l['group_memberships'] = 'Groepen beheren';
 $l['not_member_of_group'] = 'U kunt deze handeling niet uitvoeren omdat u geen lid bent van die groep.';
 $l['cannot_set_displaygroup'] = 'Deze groep kan niet worden ingesteld als zichtbare groep.';
@@ -306,7 +299,7 @@ $l['no_attachments'] = 'U hebt geen bijlagen aan berichten toegevoegd.';
 $l['date_uploaded'] = 'Geplaatst op';
 $l['no_attachments_selected'] = 'U hebt geen bijlagen geselecteerd om te verwijderen.';
 $l['attachments_deleted'] = 'De geselecteerde bijlagen zijn verwijderd.<br />U zult nu naar de pagina Bijlagen beheren worden gestuurd.';
-$l['attachments_usage_quota'] = '- {3} van {2} gebruikt ({1} met {4} bijlagen)';
+$l['attachments_usage_quota'] = '- Gebruikt {1} van {2} in {3} bijlagen';
 $l['attachments_usage'] = '- {1} met {2} bijlagen';
 $l['attachments_stats'] = 'Statistieken';
 $l['attachstats_attachs'] = 'Aantal bijlagen:';
@@ -395,13 +388,10 @@ $l['new_hot_thread'] = 'Populair topic (nieuw)';
 $l['posts_by_you'] = 'Bevat berichten van u';
 $l['no_new_thread'] = 'Geen nieuwe berichten';
 $l['hot_thread'] = 'Populair topic (niet nieuw)';
-$l['locked_thread'] = 'Gesloten topic';
 $l['icon_dot'] = 'Contains posts by you. ';
 $l['icon_no_new'] = 'Geen nieuwe berichten.';
 $l['icon_new'] = 'Geen berichten.';
 $l['icon_hot'] = ' Hot topic.';
-$l['icon_lock'] = ' Gesloten topic.';
-$l['search_user'] = '';
 $l['buddylist_error'] = 'Er is een fout opgetreden tijdens het ophalen van de buddylijst. ';
 $l['buddyrequests_sent'] = 'Buddy verzoeken verstuurd';
 $l['buddyrequests_received'] = 'Buddy verzoeken ontvangen';
@@ -438,3 +428,18 @@ $l['user_doesnt_exist'] = 'De gebruiker bestaat niet meer.';
 $l['buddyrequests_sent_success'] = 'Buddy verzoeken succesvol verstuurd.';
 $l['using_remote_avatar'] = 'Je gebruikt momenteel een afbeelding vanaf een andere website. Als je kiest voor een andere, zal je oude URL weggehaald worden.';
 $l['error_remote_avatar_not_allowed'] = 'Remote avatars zijn uitgeschakeld door de administrator van het forum.';
+$l['joinreason_too_long'] = 'De reden voor uw lidmaatschapsverzoek is te lang. Een maximum van 250 karakters is toegestaan. Verwijder alstublieft {1} karakters.';
+$l['attachments_usage_percent'] = ' ({1}%)';
+$l['closed_thread'] = 'Gesloten topic';
+$l['icon_close'] = 'Gesloten topic';
+$l['nav_removesubscription'] = 'Verwijder abonnement';
+$l['contact_field_error'] = 'Excuses, maar we kunnen uw contact informatie niet bijwerken omdat de opgegeven ID te lang is. Google Hangouts en Skype IDs kunnen maximaal 75 karakters lang zijn.';
+$l['contact_field_icqerror'] = 'Excuses, maar we kunnen uw ICQ nummer niet bijwerken omdat deze te lang is. ICQ nummers kunnen maximaal 10 karakters lang zijn.';
+$l['error_avatarurltoolong'] = 'Uw avatar kan niet worden gewijzigd omdat de URL naar de nieuwe avatar te lang is. Gebruik een URL van maximaal 200 karakters lang.';
+$l['unsubscribe_from_forum'] = 'Verwijder abonnement van Forum: {1}';
+$l['unsubscribe_from_forum_desc'] = 'Bevestig alstublieft dat u het abonnement op dit forum wilt verwijderen. U zult geen automatisch notificaties van nieuwe topics in dit forum krijgen en het zal niet langer weergegeven worden in uw lijst van geabonneerde forums.';
+$l['unsubscribe_from_thread'] = 'Verwijder abonnement van Topic: {1}';
+$l['unsubscribe_from_thread_desc'] = 'Bevestig alstublieft dat u het abonnement op dit topic wilt verwijderen. U zult geen automatisch notificaties van nieuwe berichten in dit topic krijgen en het zal niet langer weergegeven worden in uw lijst van geabonneerde topics.';
+$l['unsubscribe_change_notificaton'] = 'Verander de notificatie methode als een alternatief';
+$l['do_unsubscribe_forum'] = 'Verwijderd abonnement van dit forum';
+$l['do_unsubscribe_thread'] = 'Verwijderd abonnement van dit topic';
